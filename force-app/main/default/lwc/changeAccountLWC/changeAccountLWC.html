@@ -1,0 +1,17 @@
+<!--
+ - Created by mgnjatovic on 7/12/2022.
+ -->
+
+<!-- Change Account Lwc -->
+<template>
+    <lightning-card title="Change webinar's name">
+        <lightning-record-edit-form
+        object-api-name={objectApiName}
+        record-id={recordId}>
+
+            <lightning-input-field field-name="Name"></lightning-input-field>
+            <lightning-button type="submit" label="save"></lightning-button>
+        </lightning-record-edit-form>
+
+    </lightning-card>
+</template>
